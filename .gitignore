@@ -1,0 +1,84 @@
+# Ignorar arquivos de build e arquivos temporários gerados
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.log
+*.user
+*.suo
+*.cache
+*.bak
+
+# Ignorar diretórios específicos do Visual Studio
+.vs/
+
+# Ignorar arquivos de configuração de usuários
+*.suo
+*.user
+*.sln.docstates
+
+# Ignorar pacotes NuGet
+packages/
+
+# Ignorar arquivos de build do MSBuild
+*.VisualState.xml
+BuildLog.htm
+
+# Ignorar arquivo de configuração do ReSharper
+_ReSharper*/
+
+# Ignorar arquivos de testes e cobertura de código gerados
+*.opendb
+*.coverage
+*.dotCover
+*.tclog
+*.trx
+
+# Ignorar arquivos do Visual Studio Code (se aplicável)
+.vscode/
+
+# Ignorar arquivo de configuração do Rider (se aplicável)
+.idea/
+
+# Ignorar arquivos de análise e profiling
+*.vsp
+*.vspscc
+*.psess
+*.vspx
+
+# Ignorar arquivos de cache do ReSharper
+*.resharper
+*.resharper.user
+
+# Ignorar arquivos de configuração de testes
+test-results/
+
+# Ignorar arquivos de dependências do npm (se aplicável)
+node_modules/
+
+# Ignorar arquivos de dependências do Bower (se aplicável)
+bower_components/
+
+# Ignorar pacotes de distribuição
+*.nupkg
+
+# Ignorar arquivos de publicação de perfil do WebMatrix
+_PublishedWebsites/
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de configuração de banco de dados
+*.dbmdl
+*.dbproj.schemaview
+
+# Ignorar arquivos de captura de erros
+*.xml.err
+
+# Ignorar arquivos de compilação do Azure
+*.cspkg
+*.csdef
+
+# Ignorar diretório do Visual Studio que pode conter arquivos criptografados de senha
+App_Data/
