@@ -15,10 +15,10 @@ namespace Practice13
                 a = double.Parse(entrada[0]);
                 b = double.Parse(entrada[1]);
                 c = double.Parse(entrada[2]);
-                Console.WriteLine(mediaPonderada(a, b, c).ToString("F1"));
+                Console.WriteLine(MediaPonderada(a, b, c).ToString("F1"));
             }
         }
-        static double mediaPonderada(double n1, double n2, double n3)
+        static double MediaPonderada(double n1, double n2, double n3)
         {
             double media = (n1 * 2 + n2 * 3 + n3 * 5) / 10.0;
             return media;
